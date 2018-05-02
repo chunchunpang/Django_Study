@@ -1,0 +1,6 @@
+<title>MYWEB</title>
+{% for blog in myweb_list %}
+    <h2>{{ blog.title }}</h2>
+    <p>{{ blog.timestart }}</p>
+    <p>{{ blog.body }}</p>
+{% endfor %}

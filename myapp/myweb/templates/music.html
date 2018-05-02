@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th>主题</th>
+        <th>数量</th>
+        <th>链接</th>
+    </tr>
+    </thead>
+    <tbody>
+{% for foo in show_list %}
+        <tr>
+            <td>{{ foo.title_name }}</td>
+            <td>{{ foo.num }}</td>
+            <td>{{ foo.link }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+
+</body>
+</html>
