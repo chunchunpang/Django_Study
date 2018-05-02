@@ -1,0 +1,4 @@
+说明：
+music.py 用selenium实现了一个简单的从网易云音乐爬取大于500万的歌单，同时将歌单信息存入MySQL；
+myapp存放利用Django框架搭建的Python web，将歌单信息进行显示。
+刚开始实际接触Python项目应用，做的比较简单，以后还会提高。
